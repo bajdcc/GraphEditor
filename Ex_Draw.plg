@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex_Draw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex_Draw.res" /d "_DEBUG" /d "_AFXDLL" "E:\git\grapheditor\Ex_Draw.rc"" 
+Creating temporary file "C:\Users\CC\AppData\Local\Temp\RSP79A2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ex_Draw.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\git\grapheditor\ChildFrm.cpp"
+"E:\git\grapheditor\ConfigDlg.cpp"
+"E:\git\grapheditor\Ex_Ctrl.cpp"
+"E:\git\grapheditor\Ex_Draw.cpp"
+"E:\git\grapheditor\Ex_DrawDoc.cpp"
+"E:\git\grapheditor\Ex_DrawView.cpp"
+"E:\git\grapheditor\Grapic.cpp"
+"E:\git\grapheditor\HelpDlg.cpp"
+"E:\git\grapheditor\MainFrm.cpp"
+"E:\git\grapheditor\Startup.cpp"
+]
+Creating command line "cl.exe @C:\Users\CC\AppData\Local\Temp\RSP79A2.tmp" 
+Creating temporary file "C:\Users\CC\AppData\Local\Temp\RSP79A3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ex_Draw.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\git\grapheditor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\CC\AppData\Local\Temp\RSP79A3.tmp" 
+Creating temporary file "C:\Users\CC\AppData\Local\Temp\RSP79A4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex_Draw.pdb" /debug /machine:I386 /out:"Debug/Ex_Draw.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\ConfigDlg.obj
+.\Debug\Ex_Ctrl.obj
+.\Debug\Ex_Draw.obj
+.\Debug\Ex_DrawDoc.obj
+.\Debug\Ex_DrawView.obj
+.\Debug\Grapic.obj
+.\Debug\HelpDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\Startup.obj
+.\Debug\StdAfx.obj
+.\Debug\Ex_Draw.res
+]
+Creating command line "link.exe @C:\Users\CC\AppData\Local\Temp\RSP79A4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+ConfigDlg.cpp
+Ex_Ctrl.cpp
+Ex_Draw.cpp
+Ex_DrawDoc.cpp
+Ex_DrawView.cpp
+Grapic.cpp
+HelpDlg.cpp
+MainFrm.cpp
+Startup.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\CC\AppData\Local\Temp\RSP9733.tmp" with contents
+[
+/nologo /o"Debug/Ex_Draw.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\ConfigDlg.sbr
+.\Debug\Ex_Ctrl.sbr
+.\Debug\Ex_Draw.sbr
+.\Debug\Ex_DrawDoc.sbr
+.\Debug\Ex_DrawView.sbr
+.\Debug\Grapic.sbr
+.\Debug\HelpDlg.sbr
+.\Debug\MainFrm.sbr
+.\Debug\Startup.sbr]
+Creating command line "bscmake.exe @C:\Users\CC\AppData\Local\Temp\RSP9733.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Ex_Draw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
